@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>AI 提示词生成器 - ChatGPT/DeepSeek 提示词与绘图 Prompt</title>
+<meta name="description" content="免费 AI 提示词生成器：结构化提示词、Midjourney/Stable Diffusion 绘图 Prompt、文案改写、代码任务、面试题与周报模板，本地生成。"/>
+<meta name="keywords" content="AI提示词,Prompt生成器,ChatGPT提示词,DeepSeek提示词,Midjourney提示词,绘图Prompt,AI文案,周报生成器"/>
+<meta name="robots" content="index,follow,max-image-preview:large"/>
+<link rel="canonical" href="https://2937978586.github.io/zr_tool/ai/"/>
+<meta name="theme-color" content="#4f46e5"/>
+<meta name="color-scheme" content="light dark"/>
+<meta property="og:type" content="article"/>
+<meta property="og:site_name" content="孜然工具箱导航"/>
+<meta property="og:title" content="AI 提示词生成器 - ChatGPT/DeepSeek 提示词与绘图 Prompt"/>
+<meta property="og:description" content="免费 AI 提示词生成器：结构化提示词、Midjourney/Stable Diffusion 绘图 Prompt、文案改写、代码任务、面试题与周报模板，本地生成。"/>
+<meta property="og:url" content="https://2937978586.github.io/zr_tool/ai/"/>
+<meta property="og:image" content="https://2937978586.github.io/zr_tool/assets/og.png"/>
+<meta property="og:locale" content="zh_CN"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="AI 提示词生成器 - ChatGPT/DeepSeek 提示词与绘图 Prompt"/>
+<meta name="twitter:description" content="免费 AI 提示词生成器：结构化提示词、Midjourney/Stable Diffusion 绘图 Prompt、文案改写、代码任务、面试题与周报模板，本地生成。"/>
+<meta name="twitter:image" content="https://2937978586.github.io/zr_tool/assets/og.png"/>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"/>
+<link rel="stylesheet" href="../assets/style.css"/>
+<script>(function(){try{var m=localStorage.getItem('zr-theme')||'auto';var d=m==='dark'||(m==='auto'&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.setAttribute('data-theme',d?'dark':'light');document.documentElement.setAttribute('data-theme-mode',m);}catch(e){}})();</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","name":"AI 提示词生成器与模板","url":"https://2937978586.github.io/zr_tool/ai/","description":"免费 AI 提示词生成器：结构化提示词、Midjourney/Stable Diffusion 绘图 Prompt、文案改写、代码任务、面试题与周报模板，本地生成。","inLanguage":"zh-CN"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://2937978586.github.io/zr_tool/"},{"@type":"ListItem","position":2,"name":"AI 提示词生成器与模板","item":"https://2937978586.github.io/zr_tool/ai/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"这些工具会调用 ChatGPT 或 DeepSeek 接口吗？","acceptedAnswer":{"@type":"Answer","text":"不会。它们只负责生成结构化提示词或本地模板文本，你把结果复制到任意 AI 对话中使用。"}},{"@type":"Question","name":"提示词越长越好吗？","acceptedAnswer":{"@type":"Answer","text":"不是。关键是信息完整、约束明确；无关背景越多，模型越容易跑偏。"}},{"@type":"Question","name":"绘图提示词应该用中文还是英文？","acceptedAnswer":{"@type":"Answer","text":"Midjourney 对英文更敏感，Stable Diffusion 中英都可；工具会同时给出中英双语。"}},{"@type":"Question","name":"生成的内容可以直接商用吗？","acceptedAnswer":{"@type":"Answer","text":"提示词本身可自由使用；AI 生成内容的版权与平台规则请自行确认。"}}]},{"@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"AI 提示词生成器","url":"https://tool.zrv7.com/t/ai-prompt/"},{"@type":"ListItem","position":2,"name":"AI 绘图提示词","url":"https://tool.zrv7.com/t/ai-image-prompt/"},{"@type":"ListItem","position":3,"name":"文案改写提示词","url":"https://tool.zrv7.com/t/ai-copy-prompt/"},{"@type":"ListItem","position":4,"name":"代码提示词生成器","url":"https://tool.zrv7.com/t/ai-code-prompt/"},{"@type":"ListItem","position":5,"name":"AI 面试题生成","url":"https://tool.zrv7.com/t/ai-interview/"},{"@type":"ListItem","position":6,"name":"周报生成器","url":"https://tool.zrv7.com/t/ai-weekly-report/"},{"@type":"ListItem","position":7,"name":"Markdown 转 HTML","url":"https://tool.zrv7.com/t/markdown/"},{"@type":"ListItem","position":8,"name":"正则表达式测试工具","url":"https://tool.zrv7.com/t/regex/"}]}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">跳到主要内容</a><header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="../" aria-label="孜然工具箱导航首页">
+      <span class="brand-mark">孜</span><span class="brand-text">孜然工具箱<small>在线工具导航</small></span>
+    </a>
+    <nav class="nav" aria-label="主导航"><a href="../">首页</a><a href="../json/">JSON</a><a href="../encrypt/">加解密</a><a href="../text/">文本</a><a href="../image/">图片</a><a href="../ai/" class="on">AI 提示词</a><a href="../webmaster/">站长</a><a href="../tools/">全部工具</a></nav>
+    <div class="header-actions">
+      <a class="btn btn-ghost" href="https://tool.zrv7.com/" target="_blank" rel="noopener">进入主站 ↗</a>
+      <button class="theme-btn" id="themeBtn" type="button" aria-label="切换主题" title="切换主题">
+        <svg class="i-auto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor" stroke="none"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </div>
+  </div>
+</header><main id="main"><div class="wrap breadcrumb"><a href="../">首页</a> › <span>AI 提示词生成器与模板</span></div>
+<div class="wrap">
+  <header class="page-head"><h1>AI 提示词生成器与模板</h1><p>把「角色 + 任务 + 背景 + 输出要求」整理成结构化提示词，让 AI 一次听懂。</p></header>
+  <section class="block prose">
+<p>同样的问题，换一种问法，AI 的输出质量可能差很多。好的提示词通常包含四件事：<b>角色</b>（你是谁）、<b>任务</b>（要做什么）、<b>背景</b>（给谁看、有什么限制）、<b>输出要求</b>（格式、长度、风格）。孜然工具箱把这些要素做成了填空式生成器，不需要懂 Prompt 工程也能写出结构清晰的指令。</p>
+<h2>可用工具</h2>
+<ul>
+<li><b>通用提示词</b>：角色、任务、背景、输出要求四段式，适合写作、分析、方案策划。用 <a href="https://tool.zrv7.com/t/ai-prompt/" target="_blank" rel="noopener">AI 提示词生成器</a>。</li>
+<li><b>绘图提示词</b>：主体、风格、光线、镜头、画质，中英双语 + 负面词，适配 Midjourney / Stable Diffusion。用 <a href="https://tool.zrv7.com/t/ai-image-prompt/" target="_blank" rel="noopener">AI 绘图提示词</a>。</li>
+<li><b>文案改写</b>：指定平台、人群、语气、字数与禁用词，适合小红书、公众号、电商详情页。用 <a href="https://tool.zrv7.com/t/ai-copy-prompt/" target="_blank" rel="noopener">文案改写提示词</a>。</li>
+<li><b>代码任务</b>：语言、接口、边界条件、验收标准一次说清。用 <a href="https://tool.zrv7.com/t/ai-code-prompt/" target="_blank" rel="noopener">代码提示词生成器</a>。</li>
+<li><b>面试与周报</b>：按岗位与级别生成面试题 Prompt；把零散工作项整理成周报。用 <a href="https://tool.zrv7.com/t/ai-interview/" target="_blank" rel="noopener">AI 面试题</a>、<a href="https://tool.zrv7.com/t/ai-weekly-report/" target="_blank" rel="noopener">周报生成器</a>。</li>
+</ul>
+<h2>使用建议</h2>
+<p>先生成结构，再补充你的业务细节；对事实性内容要求 AI「不确定时说明假设」；涉及代码时附上输入输出示例和验收标准。所有模板在本地生成，不调用任何 AI 接口，也不会上传你的输入。</p>
+</section>
+  <section class="block">
+    <div class="block-head"><h2>本专题工具</h2><p>共 8 个，点击直接使用</p></div>
+    <div class="grid tools"><a class="tool-card" href="https://tool.zrv7.com/t/ai-prompt/" target="_blank" rel="noopener">
+  <span class="tool-name">AI 提示词生成器</span>
+  <span class="tool-desc">把角色、任务、背景与输出要求整理成结构化 AI 提示词，减少反复追问。</span>
+  
+</a>
+<a class="tool-card" href="https://tool.zrv7.com/t/ai-image-prompt/" target="_blank" rel="noopener">
+  <span class="tool-name">AI 绘图提示词</span>
+  <span class="tool-desc">按主体、风格、光线、镜头整理中英双语绘图提示词与负面词。</span>
+  
+</a>
+<a class="tool-card" href="https://tool.zrv7.com/t/ai-copy-prompt/" target="_blank" rel="noopener">
+  <span class="tool-name">文案改写提示词</span>
+  <span class="tool-desc">生成可直接投喂 AI 的文案改写指令，指定平台、语气、长度与禁用词。</span>
+  
+</a>
+<a class="tool-card" href="https://tool.zrv7.com/t/ai-code-prompt/" target="_blank" rel="noopener">
+  <span class="tool-name">代码提示词生成器</span>
+  <span class="tool-desc">生成包含语言、接口、边界条件与验收标准的代码任务提示词。</span>
+  
+</a>
+<a class="tool-card" href="https://tool.zrv7.com/t/ai-interview/" target="_blank" rel="noopener">
+  <span class="tool-name">AI 面试题生成</span>
+  <span class="tool-desc">按岗位、级别与考察重点生成面试题 Prompt，含追问与评分要点要求。</span>
+  
+</a>
+<a class="tool-card" href="https://tool.zrv7.com/t/ai-weekly-report/" target="_blank" rel="noopener">
+  <span class="tool-name">周报生成器</span>
+  <span class="tool-desc">把零散工作项整理成结构清晰、语气得体的周报，本地模板生成，不调用 AI 接口。</span>
+  
+</a>
+<a class="tool-card" href="https://tool.zrv7.com/t/markdown/" target="_blank" rel="noopener">
+  <span class="tool-name">Markdown 转 HTML</span>
+  <span class="tool-desc">Markdown 与 HTML 双向转换工具，支持标题、粗斜体、代码、列表、引用、链接与图片，带实时预览。</span>
+  
+</a>
+<a class="tool-card" href="https://tool.zrv7.com/t/regex/" target="_blank" rel="noopener">
+  <span class="tool-name">正则表达式测试工具</span>
+  <span class="tool-desc">正则表达式测试工具：可在线自定义正则表达式提取文本内容,对任意正则表达式进行校验,正则表达式提取网址,正则表达式在线格式化等,希望对大家有帮助。</span>
+  
+</a></div>
+  </section>
+  <section class="block" id="faq">
+    <div class="block-head"><h2>常见问题</h2><p>关于AI 提示词生成器与模板</p></div>
+    <details class="faq"><summary>这些工具会调用 ChatGPT 或 DeepSeek 接口吗？</summary><div>不会。它们只负责生成结构化提示词或本地模板文本，你把结果复制到任意 AI 对话中使用。</div></details>
+<details class="faq"><summary>提示词越长越好吗？</summary><div>不是。关键是信息完整、约束明确；无关背景越多，模型越容易跑偏。</div></details>
+<details class="faq"><summary>绘图提示词应该用中文还是英文？</summary><div>Midjourney 对英文更敏感，Stable Diffusion 中英都可；工具会同时给出中英双语。</div></details>
+<details class="faq"><summary>生成的内容可以直接商用吗？</summary><div>提示词本身可自由使用；AI 生成内容的版权与平台规则请自行确认。</div></details>
+  </section>
+  <section class="block">
+    <div class="topic-card"><h3>需要更多工具？</h3><p><a href="https://tool.zrv7.com/category/ai/" target="_blank" rel="noopener">查看主站「AI 工具」分类的全部工具 ↗</a>　或浏览 <a href="../tools/">全部 564 个工具索引</a>。</p></div>
+  </section>
+</div></main><footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark">孜</span>
+      <div><strong>孜然工具箱</strong><p>564 个免费在线工具，打开即用，无需安装。</p></div>
+    </div>
+    <div class="footer-links">
+      <div><h4>工具导航</h4><a href="../json/">JSON 工具</a><a href="../encrypt/">加解密编码</a><a href="../text/">文本处理</a><a href="../image/">图片工具</a></div>
+      <div><h4>热门专题</h4><a href="../ai/">AI 提示词</a><a href="../webmaster/">站长工具</a><a href="../tools/">全部工具索引</a><a href="https://tool.zrv7.com/" target="_blank" rel="noopener">主站首页</a></div>
+      <div><h4>开源与反馈</h4><a href="https://github.com/2937978586/zr_tool" target="_blank" rel="noopener">GitHub 仓库</a><a href="https://gitee.com/qq2937978586/zr_tool" target="_blank" rel="noopener">Gitee 仓库</a><a href="https://tool.zrv7.com/about/" target="_blank" rel="noopener">关于本站</a></div>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 孜然工具箱 · 本站为工具导航与索引页，所有工具在 <a href="https://tool.zrv7.com/" target="_blank" rel="noopener">tool.zrv7.com</a> 运行</span>
+    <span>内容可自由引用，转载请注明来源</span>
+  </div>
+</footer><script src="../assets/app.js"></script></body></html>

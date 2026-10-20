@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>在线文本处理工具 - 字数统计、去重、替换、对比、拼音转换</title>
+<meta name="description" content="在线文本处理：字数统计、文本去重、批量替换、文本对比、大小写转换、汉字转拼音、简繁转换、全半角转换，本地即时处理。"/>
+<meta name="keywords" content="字数统计,文本去重,文本替换,文本对比,大小写转换,汉字转拼音,简繁转换,全半角转换,在线文本工具"/>
+<meta name="robots" content="index,follow,max-image-preview:large"/>
+<link rel="canonical" href="https://2937978586.github.io/zr_tool/text/"/>
+<meta name="theme-color" content="#4f46e5"/>
+<meta name="color-scheme" content="light dark"/>
+<meta property="og:type" content="article"/>
+<meta property="og:site_name" content="孜然工具箱导航"/>
+<meta property="og:title" content="在线文本处理工具 - 字数统计、去重、替换、对比、拼音转换"/>
+<meta property="og:description" content="在线文本处理：字数统计、文本去重、批量替换、文本对比、大小写转换、汉字转拼音、简繁转换、全半角转换，本地即时处理。"/>
+<meta property="og:url" content="https://2937978586.github.io/zr_tool/text/"/>
+<meta property="og:image" content="https://2937978586.github.io/zr_tool/assets/og.png"/>
+<meta property="og:locale" content="zh_CN"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="在线文本处理工具 - 字数统计、去重、替换、对比、拼音转换"/>
+<meta name="twitter:description" content="在线文本处理：字数统计、文本去重、批量替换、文本对比、大小写转换、汉字转拼音、简繁转换、全半角转换，本地即时处理。"/>
+<meta name="twitter:image" content="https://2937978586.github.io/zr_tool/assets/og.png"/>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"/>
+<link rel="stylesheet" href="../assets/style.css"/>
+<script>(function(){try{var m=localStorage.getItem('zr-theme')||'auto';var d=m==='dark'||(m==='auto'&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.setAttribute('data-theme',d?'dark':'light');document.documentElement.setAttribute('data-theme-mode',m);}catch(e){}})();</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","name":"在线文本处理与统计","url":"https://2937978586.github.io/zr_tool/text/","description":"在线文本处理：字数统计、文本去重、批量替换、文本对比、大小写转换、汉字转拼音、简繁转换、全半角转换，本地即时处理。","inLanguage":"zh-CN"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://2937978586.github.io/zr_tool/"},{"@type":"ListItem","position":2,"name":"在线文本处理与统计","item":"https://2937978586.github.io/zr_tool/text/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"字数统计包含标点吗？","acceptedAnswer":{"@type":"Answer","text":"可以切换统计口径：是否包含标点、空格与换行，按中文字符或英文单词分别计数。"}},{"@type":"Question","name":"文本去重会改变原有顺序吗？","acceptedAnswer":{"@type":"Answer","text":"默认保留首次出现的顺序，只删除后续重复行；也可以选择排序后去重。"}},{"@type":"Question","name":"文本对比支持大文件吗？","acceptedAnswer":{"@type":"Answer","text":"几百 KB 的文本可以流畅处理；更大的文件建议分段对比，避免浏览器卡顿。"}},{"@type":"Question","name":"处理的内容会上传吗？","acceptedAnswer":{"@type":"Answer","text":"不会，文本工具全部在浏览器本地运行。"}}]},{"@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"在线统计字数工具","url":"https://tool.zrv7.com/t/txtcount/"},{"@type":"ListItem","position":2,"name":"内容去重工具","url":"https://tool.zrv7.com/t/quchong/"},{"@type":"ListItem","position":3,"name":"文本内容替换","url":"https://tool.zrv7.com/t/txtreplace/"},{"@type":"ListItem","position":4,"name":"文本内容对比","url":"https://tool.zrv7.com/t/textdiff/"},{"@type":"ListItem","position":5,"name":"驼峰与下划线互转","url":"https://tool.zrv7.com/t/camelcase/"},{"@type":"ListItem","position":6,"name":"英文字母大小写转换","url":"https://tool.zrv7.com/t/enlower/"},{"@type":"ListItem","position":7,"name":"汉字转为拼音","url":"https://tool.zrv7.com/t/pinyin/"},{"@type":"ListItem","position":8,"name":"简繁字体转换","url":"https://tool.zrv7.com/t/jianfan/"},{"@type":"ListItem","position":9,"name":"全角半角转换","url":"https://tool.zrv7.com/t/quanbaojiao/"},{"@type":"ListItem","position":10,"name":"文字特效工具","url":"https://tool.zrv7.com/t/wenzitexiao/"},{"@type":"ListItem","position":11,"name":"字符串文本压缩工具","url":"https://tool.zrv7.com/t/zipstringtext/"},{"@type":"ListItem","position":12,"name":"正则表达式测试工具","url":"https://tool.zrv7.com/t/regex/"}]}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">跳到主要内容</a><header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="../" aria-label="孜然工具箱导航首页">
+      <span class="brand-mark">孜</span><span class="brand-text">孜然工具箱<small>在线工具导航</small></span>
+    </a>
+    <nav class="nav" aria-label="主导航"><a href="../">首页</a><a href="../json/">JSON</a><a href="../encrypt/">加解密</a><a href="../text/" class="on">文本</a><a href="../image/">图片</a><a href="../ai/">AI 提示词</a><a href="../webmaster/">站长</a><a href="../tools/">全部工具</a></nav>
+    <div class="header-actions">
+      <a class="btn btn-ghost" href="https://tool.zrv7.com/" target="_blank" rel="noopener">进入主站 ↗</a>
+      <button class="theme-btn" id="themeBtn" type="button" aria-label="切换主题" title="切换主题">
+        <svg class="i-auto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor" stroke="none"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </div>
+  </div>
+</header><main id="main"><div class="wrap breadcrumb"><a href="../">首页</a> › <span>在线文本处理与统计</span></div>
+<div class="wrap">
+  <header class="page-head"><h1>在线文本处理与统计</h1><p>从字数统计到批量替换、去重、对比与拼音转换，覆盖日常写作与运营排版。</p></header>
+  <section class="block prose">
+<p>写公众号、小红书、论文或产品文案时，最常见的小麻烦是：字数到底够不够、重复行太多、两个版本改了什么、批量替换会不会漏。把这些操作放进浏览器里完成，不用打开 Excel，也不用装插件。</p>
+<h2>常见场景</h2>
+<ul>
+<li><b>字数统计</b>：中英文分别计数、去空格计数、段落与行数统计，适合平台字数限制。用 <a href="https://tool.zrv7.com/t/txtcount/" target="_blank" rel="noopener">字数统计工具</a>。</li>
+<li><b>去重与清洗</b>：删除重复行、去掉空行、去除首尾空格，整理名单和关键词。用 <a href="https://tool.zrv7.com/t/quchong/" target="_blank" rel="noopener">文本去重</a>。</li>
+<li><b>批量替换</b>：一次替换多个词，支持正则，适合改文案口径、替换变量名。用 <a href="https://tool.zrv7.com/t/txtreplace/" target="_blank" rel="noopener">批量替换</a>。</li>
+<li><b>文本对比</b>：逐行标出新增、删除与修改，审稿和改代码都好用。用 <a href="https://tool.zrv7.com/t/textdiff/" target="_blank" rel="noopener">文本对比</a>。</li>
+<li><b>格式转换</b>：大小写、驼峰命名、全半角、简繁、拼音。用 <a href="https://tool.zrv7.com/t/camelcase/" target="_blank" rel="noopener">命名转换</a>、<a href="https://tool.zrv7.com/t/jianfan/" target="_blank" rel="noopener">简繁转换</a>、<a href="https://tool.zrv7.com/t/pinyin/" target="_blank" rel="noopener">汉字转拼音</a>。</li>
+</ul>
+<h2>写作与运营建议</h2>
+<p>发布前先统计字数，确认平台限制；用去重清理关键词堆叠；用对比检查编辑前后差异；需要做多语言或资料整理时，拼音与简繁转换能省不少时间。所有文本处理都在本地完成，不会上传你的稿件。</p>
+</section>
+  <section class="block">
+    <div class="block-head"><h2>本专题工具</h2><p>共 12 个，点击直接使用</p></div>
+    <div class="grid tools"><a class="tool-card" href="https://tool.zrv7.com/t/txtcount/" target="_blank" rel="noopener">
+  <span class="tool-name">在线统计字数工具</span>
+  <span class="tool-desc">在线统计字数工具：实时统计输入框的所有字符个数,适用于各种浏览器下统计字数。</span>
+  
+</a>
+<a class="tool-card" href="https://tool.zrv7.com/t/quchong/" target="_blank" rel="noopener">
+  <span class="tool-name">内容去重工具</span>
+  <span class="tool-desc">内容去重工具：在线去重工具为您提在线去重工具,去重复行,将列表内容放入文本框内，每行一条，点击去重按钮</span>
+  
+</a>
+<a class="tool-card" href="https://tool.zrv7.com/t/txtreplace/" target="_blank" rel="noopener">
+  <span class="tool-name">文本内容替换</span>
+  <span class="tool-desc">文本内容替换：文字内容批量替换工具为您提实现任意内容快速查找替换，如果不想要某个字符，直接替换掉即可,文字内容批量替换,还可以可自定义替换的字符，快速实…</span>
+  
+</a>
+<a class="tool-card" href="https://tool.zrv7.com/t/textdiff/" target="_blank" rel="noopener">
+  <span class="tool-name">文本内容对比</span>
+  <span class="tool-desc">文本内容对比：可以方便大家快速对比两个文本文件中的不同之处，可以自动对两段文本比较，标注不同之处，结果清晰明了，可快速替换差异内容等。</span>
+  
+</a>
+<a class="tool-card" href="https://tool.zrv7.com/t/camelcase/" target="_blank" rel="noopener">
+  <span class="tool-name">驼峰与下划线互转</span>
+  <span class="tool-desc">驼峰与下划线互转：在线驼峰转下划线,下划线转驼峰,变量，类名,属性名,函数等命名的驼峰与下划线相互转换。</span>
+  
+</a>
+<a class="tool-card" href="https://tool.zrv7.com/t/enlower/" target="_blank" rel="noopener">
+  <span class="tool-name">英文字母大小写转换</span>
+  <span class="tool-desc">英文字母大小写转换：能方便快捷地将英文字母全部转换为大写或小写，或将英文句子转换成首字母大写,在线大小写转换,单词大小写在线转换等。</span>
+  
+</a>
+<a class="tool-card" href="https://tool.zrv7.com/t/pinyin/" target="_blank" rel="noopener">
+  <span class="tool-name">汉字转为拼音</span>
+  <span class="tool-desc">汉字转为拼音：可以将汉字转换成对应的拼音或读音，同时可以选择汉字与拼音对比的排列方式（上下，左右汉字拼音对比），方便阅读对比输入汉字即可得到对应的拼音,…</span>
+  
+</a>
+<a class="tool-card" href="https://tool.zrv7.com/t/jianfan/" target="_blank" rel="noopener">
+  <span class="tool-name">简繁字体转换</span>
+  <span class="tool-desc">简繁字体转换：实现简体字转换为繁体字,繁体字转换为简体字,繁体转简体,简繁互转换。</span>
+  
+</a>
+<a class="tool-card" href="https://tool.zrv7.com/t/quanbaojiao/" target="_blank" rel="noopener">
+  <span class="tool-name">全角半角转换</span>
+  <span class="tool-desc">全角半角转换：全角半角转换器 全角半角转换器提供全角与半角互转,全角半角转换工具,很方便的将全角字符和半角字符相互切换,全角指一个字符占用两个标准字符位…</span>
+  
+</a>
+<a class="tool-card" href="https://tool.zrv7.com/t/wenzitexiao/" target="_blank" rel="noopener">
+  <span class="tool-name">文字特效工具</span>
+  <span class="tool-desc">文字特效工具：一键制作生成彩色特效文字,彩色的漂亮字体,可用于制作彩色文字生成,文字生成器,特效文字生成,文字特效制作,彩色文字特效,以及制作炫酷彩色H…</span>
+  
+</a>
+<a class="tool-card" href="https://tool.zrv7.com/t/zipstringtext/" target="_blank" rel="noopener">
+  <span class="tool-name">字符串文本压缩工具</span>
+  <span class="tool-desc">字符串文本压缩工具：内容去空格,去换行,删除空白行,删除回车,去除制表符等。</span>
+  
+</a>
+<a class="tool-card" href="https://tool.zrv7.com/t/regex/" target="_blank" rel="noopener">
+  <span class="tool-name">正则表达式测试工具</span>
+  <span class="tool-desc">正则表达式测试工具：可在线自定义正则表达式提取文本内容,对任意正则表达式进行校验,正则表达式提取网址,正则表达式在线格式化等,希望对大家有帮助。</span>
+  
+</a></div>
+  </section>
+  <section class="block" id="faq">
+    <div class="block-head"><h2>常见问题</h2><p>关于在线文本处理与统计</p></div>
+    <details class="faq"><summary>字数统计包含标点吗？</summary><div>可以切换统计口径：是否包含标点、空格与换行，按中文字符或英文单词分别计数。</div></details>
+<details class="faq"><summary>文本去重会改变原有顺序吗？</summary><div>默认保留首次出现的顺序，只删除后续重复行；也可以选择排序后去重。</div></details>
+<details class="faq"><summary>文本对比支持大文件吗？</summary><div>几百 KB 的文本可以流畅处理；更大的文件建议分段对比，避免浏览器卡顿。</div></details>
+<details class="faq"><summary>处理的内容会上传吗？</summary><div>不会，文本工具全部在浏览器本地运行。</div></details>
+  </section>
+  <section class="block">
+    <div class="topic-card"><h3>需要更多工具？</h3><p><a href="https://tool.zrv7.com/category/text/" target="_blank" rel="noopener">查看主站「文本数字」分类的全部工具 ↗</a>　或浏览 <a href="../tools/">全部 564 个工具索引</a>。</p></div>
+  </section>
+</div></main><footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark">孜</span>
+      <div><strong>孜然工具箱</strong><p>564 个免费在线工具，打开即用，无需安装。</p></div>
+    </div>
+    <div class="footer-links">
+      <div><h4>工具导航</h4><a href="../json/">JSON 工具</a><a href="../encrypt/">加解密编码</a><a href="../text/">文本处理</a><a href="../image/">图片工具</a></div>
+      <div><h4>热门专题</h4><a href="../ai/">AI 提示词</a><a href="../webmaster/">站长工具</a><a href="../tools/">全部工具索引</a><a href="https://tool.zrv7.com/" target="_blank" rel="noopener">主站首页</a></div>
+      <div><h4>开源与反馈</h4><a href="https://github.com/2937978586/zr_tool" target="_blank" rel="noopener">GitHub 仓库</a><a href="https://gitee.com/qq2937978586/zr_tool" target="_blank" rel="noopener">Gitee 仓库</a><a href="https://tool.zrv7.com/about/" target="_blank" rel="noopener">关于本站</a></div>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 孜然工具箱 · 本站为工具导航与索引页，所有工具在 <a href="https://tool.zrv7.com/" target="_blank" rel="noopener">tool.zrv7.com</a> 运行</span>
+    <span>内容可自由引用，转载请注明来源</span>
+  </div>
+</footer><script src="../assets/app.js"></script></body></html>

@@ -1,0 +1,39 @@
+# 孜然工具箱（Ziran Toolbox）
+
+> 面向中文用户的免费在线工具集合，共 564 个工具、21 个分类，覆盖 JSON、加解密、文本、图片、AI 提示词、站长 SEO、计算换算、生活学习等场景。多数工具在浏览器本地处理，数据不上传。
+
+主站：https://tool.zrv7.com/
+全部工具索引：https://2937978586.github.io/zr_tool/tools/
+GitHub：https://github.com/2937978586/zr_tool
+Gitee：https://gitee.com/qq2937978586/zr_tool
+
+## 专题页
+- JSON 格式化与校验：https://2937978586.github.io/zr_tool/json/
+- MD5 / Base64 / AES 加解密：https://2937978586.github.io/zr_tool/encrypt/
+- 文本处理与统计：https://2937978586.github.io/zr_tool/text/
+- 图片压缩与格式转换：https://2937978586.github.io/zr_tool/image/
+- AI 提示词生成器：https://2937978586.github.io/zr_tool/ai/
+- 站长 SEO 工具箱：https://2937978586.github.io/zr_tool/webmaster/
+
+## 分类
+- JSON 工具（37 个）：https://tool.zrv7.com/category/json/
+- 格式化转换（40 个）：https://tool.zrv7.com/category/format/
+- 加解密编码（95 个）：https://tool.zrv7.com/category/encrypt/
+- 文本数字（74 个）：https://tool.zrv7.com/category/text/
+- 转换工具（73 个）：https://tool.zrv7.com/category/convert/
+- 网络工具（17 个）：https://tool.zrv7.com/category/network/
+- 站长工具（45 个）：https://tool.zrv7.com/category/webmaster/
+- 计算换算（39 个）：https://tool.zrv7.com/category/calc/
+- 开发对照（25 个）：https://tool.zrv7.com/category/dev/
+- 其他工具（21 个）：https://tool.zrv7.com/category/other/
+- 生活工具（14 个）：https://tool.zrv7.com/category/life/
+- 日历农历（3 个）：https://tool.zrv7.com/category/calendar/
+- 娱乐工具（21 个）：https://tool.zrv7.com/category/fun/
+- 实用工具（5 个）：https://tool.zrv7.com/category/utils/
+- 对照表（11 个）：https://tool.zrv7.com/category/ref/
+- 电脑工具（5 个）：https://tool.zrv7.com/category/pc/
+- PDF 工具（4 个）：https://tool.zrv7.com/category/pdf/
+- 图片工具（14 个）：https://tool.zrv7.com/category/image/
+- 安全工具（7 个）：https://tool.zrv7.com/category/security/
+- AI 工具（6 个）：https://tool.zrv7.com/category/ai/
+- 学习工具（8 个）：https://tool.zrv7.com/category/study/
