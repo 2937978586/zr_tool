@@ -1,7 +1,5 @@
 # 孜然工具箱 · 在线工具导航
 
-![孜然工具箱导航](https://2937978586.github.io/zr_tool/assets/og.png)
-
 > **564 个免费在线工具，打开即用。** JSON 格式化、MD5/SHA/Base64/AES 加解密、文本处理、图片压缩裁剪、二维码、AI 提示词、站长 SEO、单位换算……
 
 [🌐 主站 tool.zrv7.com](https://tool.zrv7.com/)　|　[📖 在线导航页](https://2937978586.github.io/zr_tool/)　|　[🧰 全部工具索引](https://2937978586.github.io/zr_tool/tools/)　|　[Gitee 镜像](https://gitee.com/qq2937978586/zr_tool)
